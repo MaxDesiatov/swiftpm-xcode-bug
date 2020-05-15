@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ObjectEncoder",
+        "repositoryURL": "https://github.com/norio-nomura/ObjectEncoder.git",
+        "state": {
+          "branch": null,
+          "revision": "cee65eac1234439453874150bc1edfc2dff796f5",
+          "version": "0.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
