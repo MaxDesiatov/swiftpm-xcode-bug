@@ -6,11 +6,12 @@
 //  Copyright © 2020 Digital Signal. All rights reserved.
 //
 
+import Package
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(Package().text)
     }
 }
 

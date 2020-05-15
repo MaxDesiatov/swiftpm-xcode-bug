@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		D1BC0FD2246EF8050022A276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BC0FD1246EF8050022A276 /* Assets.xcassets */; };
 		D1BC0FD5246EF8050022A276 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BC0FD4246EF8050022A276 /* Preview Assets.xcassets */; };
 		D1BC0FD8246EF8050022A276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BC0FD6246EF8050022A276 /* LaunchScreen.storyboard */; };
+		D1BC0FE2246EFA2B0022A276 /* Package in Frameworks */ = {isa = PBXBuildFile; productRef = D1BC0FE1246EFA2B0022A276 /* Package */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D1BC0FD4246EF8050022A276 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1BC0FD7246EF8050022A276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1BC0FD9246EF8050022A276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BC0FDF246EFA150022A276 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Package; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BC0FE2246EFA2B0022A276 /* Package in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +43,10 @@
 		D1BC0FBF246EF8000022A276 = {
 			isa = PBXGroup;
 			children = (
+				D1BC0FDF246EFA150022A276 /* Package */,
 				D1BC0FCA246EF8000022A276 /* XcodeBug */,
 				D1BC0FC9246EF8000022A276 /* Products */,
+				D1BC0FE0246EFA2B0022A276 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +80,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D1BC0FE0246EFA2B0022A276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +103,9 @@
 			dependencies = (
 			);
 			name = XcodeBug;
+			packageProductDependencies = (
+				D1BC0FE1246EFA2B0022A276 /* Package */,
+			);
 			productName = XcodeBug;
 			productReference = D1BC0FC8246EF8000022A276 /* XcodeBug.app */;
 			productType = "com.apple.product-type.application";
@@ -340,6 +355,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1BC0FE1246EFA2B0022A276 /* Package */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Package;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1BC0FC0246EF8000022A276 /* Project object */;
 }
